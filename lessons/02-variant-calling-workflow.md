@@ -177,7 +177,7 @@ $ bcftools view $variants | /usr/share/samtools/vcfutils.pl varFilter - > $final
     
 ****
 **Exercise**
-Run the script run_variant_calling.sh
+Run the script [run_variant_calling.sh](./run_variant_calling.sh)
 ****
 
 
