@@ -102,14 +102,14 @@ The main functions of FastQC are
     mkdir dc_workshop/data
     mkdir dc_workshop/docs
     mkdir dc_workshop/results
-```
+    ```
 
   > The sample data we will be working with is in a hidden directory (placing a '.' in front of a directory name hides the directory. In the next step we will move some of those hidden files into our new dirctories to start our project. 
 3. Move our sample data to our working (home) directory
-   
+
    ```bash 
-$ mv ~/.dc_sampledata_lite/untrimmed_fastq/ ~/dc_workshop/data/
-```
+   $ mv ~/.dc_sampledata_lite/untrimmed_fastq/ ~/dc_workshop/data/
+   ```
 
 ###B. Run FastQC
 
@@ -133,6 +133,7 @@ Now, let's create a home for our results
     $ mv *.zip ~/dc_workshop/results/fastqc_untrimmed_reads/
     $ mv *.html ~/dc_workshop/results/fastqc_untrimmed_reads/
     ```
+
 ### C. Results
 
 Lets examine the results in detail
